@@ -10,6 +10,18 @@ I built GitaJi to be that companion, aiming to bridge the gap between ancient te
 
 *Note: In Indian culture, the suffix "-ji" is a term of deep respect and kinship.*
 
+## Features
+
+- AI-powered Dharma guidance
+- Scripture-inspired wisdom retrieval
+- Accessibility mode
+- Multilingual interface
+- Responsive web application
+- Next.js frontend
+- Flask backend
+- GitHub Copilot accelerated development
+- Microsoft Foundry IQ architecture integration
+
 ---
 
 # The Intelligence: Guided Wisdom Retrieval
@@ -143,8 +155,6 @@ Modern AI assistants are exceptionally good at providing information, but they o
 GitaJi addresses this gap by creating a wisdom-oriented companion that draws inspiration from some of humanity's oldest philosophical traditions and presents that wisdom through a modern, accessible, and user-friendly interface.
 
 The goal is simple: help people find clarity, perspective, and peace when life becomes difficult.
-
-# Architecture
 
 ## Architecture
 
