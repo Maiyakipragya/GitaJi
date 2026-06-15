@@ -143,3 +143,80 @@ Modern AI assistants are exceptionally good at providing information, but they o
 GitaJi addresses this gap by creating a wisdom-oriented companion that draws inspiration from some of humanity's oldest philosophical traditions and presents that wisdom through a modern, accessible, and user-friendly interface.
 
 The goal is simple: help people find clarity, perspective, and peace when life becomes difficult.
+
+# Architecture
+
+## Architecture
+
+```text
+┌─────────────────────────────────────────────────────────────────┐
+│                            GitaJi                               │
+│            AI Dharma Companion & Wisdom Navigator              │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ┌──────────────────────────┐                                  │
+│  │      User Interface      │                                  │
+│  │      (Next.js/React)     │                                  │
+│  │                          │                                  │
+│  │ • Chat Interface         │                                  │
+│  │ • Multilingual Support   │                                  │
+│  │ • Accessibility Mode     │                                  │
+│  │ • Theme Customization    │                                  │
+│  │ • Chat History UI        │                                  │
+│  └─────────────┬────────────┘                                  │
+│                │                                               │
+│                ▼                                               │
+│  ┌──────────────────────────┐                                  │
+│  │      API Layer           │                                  │
+│  │    Next.js Route API     │                                  │
+│  └─────────────┬────────────┘                                  │
+│                │                                               │
+│                ▼                                               │
+│  ┌──────────────────────────┐                                  │
+│  │      Flask Backend       │                                  │
+│  │                          │                                  │
+│  │ • Query Processing       │                                  │
+│  │ • Context Building       │                                  │
+│  │ • Wisdom Retrieval       │                                  │
+│  │ • Response Generation    │                                  │
+│  └─────────────┬────────────┘                                  │
+│                │                                               │
+│                ▼                                               │
+│  ┌──────────────────────────┐                                  │
+│  │     Wisdom Engine        │                                  │
+│  │                          │                                  │
+│  │ • Bhagavad Gita          │                                  │
+│  │ • Mahabharata            │                                  │
+│  │ • Ramayana Traditions    │                                  │
+│  │ • Shiv Purana            │                                  │
+│  │ • Devi Bhagavatam        │                                  │
+│  │ • Four Vedas             │                                  │
+│  └─────────────┬────────────┘                                  │
+│                │                                               │
+│                ▼                                               │
+│  ┌──────────────────────────┐                                  │
+│  │ Grounded Guidance Output │                                  │
+│  └──────────────────────────┘                                  │
+│                                                                 │
+│ ┌─────────────────────────────────────────────────────────────┐ │
+│ │ GitHub Copilot Assisted Development                         │ │
+│ │                                                             │ │
+│ │ • UI Development                                            │ │
+│ │ • Backend Development                                       │ │
+│ │ • Debugging                                                 │ │
+│ │ • Rapid Prototyping                                         │ │
+│ │ • Code Generation                                           │ │
+│ └─────────────────────────────────────────────────────────────┘ │
+│                                                                 │
+│ ┌─────────────────────────────────────────────────────────────┐ │
+│ │ Microsoft Foundry IQ Integration Layer                      │ │
+│ │                                                             │ │
+│ │ • Knowledge Retrieval Architecture                          │ │
+│ │ • Semantic Search Layer                                     │ │
+│ │ • Grounded Citation Framework                               │ │
+│ │ • Multi-Source Wisdom Retrieval                             │ │
+│ └─────────────────────────────────────────────────────────────┘ │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
